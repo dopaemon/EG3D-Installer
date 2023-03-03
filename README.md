@@ -102,7 +102,7 @@ Tải EG3D từ Repo [**Này**](https://github.com/NVlabs/eg3d/archive/refs/head
 
 Bước 3:
 Mở <code>Anaconda Prompt</code> nhập
-<code>Nhập cd .. đến lúc nào về hoàn toàn thư mục C:\</code>
+```Nhập cd .. đến lúc nào về hoàn toàn thư mục C:\```
 ```cmd
 cd C:\eg3d
 ```
