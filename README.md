@@ -74,8 +74,12 @@ Thiết Lập Env Conda cho EG3D
 ```bash
 cd eg3d/eg3d
 ```
+Mở file environment.yml và xóa dòng - cudatoolkit=11.1
 ```bash
 conda env create -f environment.yml
+```
+```bash
+conda install pytorch torchvision torchaudio cudatoolkit=11.1 -c pytorch -c conda-forge
 ```
 Bước 5:
 Active EG3D cho Conda
@@ -90,19 +94,28 @@ python visualizer.py
 # Windows
 Bước 1:
 Cài đặt Anaconda Minimal tải [**Conda**](https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe)
+
 Bước 2:
 Tải EG3D từ Repo [**Này**](https://github.com/NVlabs/eg3d/archive/refs/heads/main.zip) </br>
 <code>Giải nén file main.zip vào ổ C:\\ ví dụ C:\\eg3d</code></br>
 Bước 3:
-Mở Anaconda Prompt nhập
+Mở <code>Anaconda Prompt</code> nhập
+<code>Nhập cd .. đến lúc nào về hoàn toàn thư mục C:\
+```cmd
+cd ..
+```
 ```cmd
 C:
 ```
 ```cmd
 cd eg3d\eg3d
 ```
+Mở file environment.yml và xóa dòng - cudatoolkit=11.1
 ```cmd
 conda env create -f environment.yml
+```
+```cmd
+conda install pytorch torchvision torchaudio cudatoolkit=11.1 -c pytorch -c conda-forge
 ```
 ```cmd
 conda activate eg3d
