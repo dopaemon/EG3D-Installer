@@ -69,3 +69,21 @@ cd ~/
 ```bash
 git clone -b master --single-branch https://github.com/NVlabs/eg3d.git
 ```
+Bước 4:
+Thiết Lập Env Conda cho EG3D
+```bash
+cd eg3d/eg3d
+```
+```bash
+conda env create -f environment.yml
+```
+Bước 5:
+Active EG3D cho Conda
+```bash
+conda activate eg3d
+```
+Bước 6:
+Chạy GUI EG3D
+```bash
+python visualizer.py
+```
