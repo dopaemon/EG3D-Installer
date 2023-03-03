@@ -87,3 +87,26 @@ Chạy GUI EG3D
 ```bash
 python visualizer.py
 ```
+# Windows
+Bước 1:
+Cài đặt Anaconda Minimal tải [**Conda**](https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe)
+Bước 2:
+Tải EG3D từ Repo [**Này**](https://github.com/NVlabs/eg3d/archive/refs/heads/main.zip) </br>
+<code>Giải nén file main.zip vào ổ C:\\ ví dụ C:\\eg3d</code></br>
+Bước 3:
+Mở Anaconda Prompt nhập
+```cmd
+C:
+```
+```cmd
+cd eg3d\eg3d
+```
+```cmd
+conda env create -f environment.yml
+```
+```cmd
+conda activate eg3d
+```
+```cmd
+python visualizer.py
+```
