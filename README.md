@@ -102,13 +102,7 @@ Bước 3:
 Mở <code>Anaconda Prompt</code> nhập
 <code>Nhập cd .. đến lúc nào về hoàn toàn thư mục C:\
 ```cmd
-cd ..
-```
-```cmd
-C:
-```
-```cmd
-cd eg3d\eg3d
+cd C:\eg3d
 ```
 Mở file environment.yml và xóa dòng - cudatoolkit=11.1
 ```cmd
