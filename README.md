@@ -96,11 +96,13 @@ Bước 1:
 Cài đặt Anaconda Minimal tải [**Conda**](https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe)
 
 Bước 2:
-Tải EG3D từ Repo [**Này**](https://github.com/NVlabs/eg3d/archive/refs/heads/main.zip) </br>
+Tải EG3D từ Repo [**Này**](https://github.com/NVlabs/eg3d/archive/refs/heads/main.zip)
+
 <code>Giải nén file main.zip vào ổ C:\\ ví dụ C:\\eg3d</code></br>
+
 Bước 3:
 Mở <code>Anaconda Prompt</code> nhập
-<code>Nhập cd .. đến lúc nào về hoàn toàn thư mục C:\
+<code>Nhập cd .. đến lúc nào về hoàn toàn thư mục C:\</code>
 ```cmd
 cd C:\eg3d
 ```
