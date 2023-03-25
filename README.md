@@ -1,7 +1,7 @@
 # Linux
 ## Debian Core ( sử dụng gói lệnh *.deb và apt hoặc apt-install)
 Request: ```sudo apt update && sudo apt full-upgrade && sudo apt install curl wget git```
-Bước 1: Download Condamini script
+Bước 1: Download Condamini script | Conda Python 3.8 is Requestment
 ```bash
 wget -O /tmp/miniconda.sh https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 ```
@@ -85,6 +85,10 @@ Bước 5:
 Active EG3D cho Conda
 ```bash
 conda activate eg3d
+```
+Active LibstdC++
+```
+export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libstdc++.so.6
 ```
 Bước 6:
 Chạy GUI EG3D
