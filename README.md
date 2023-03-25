@@ -74,17 +74,17 @@ Thiết Lập Env Conda cho EG3D
 ```bash
 cd eg3d/eg3d
 ```
-Mở file environment.yml và xóa dòng - cudatoolkit=11.1
 ```bash
 conda env create -f environment.yml
-```
-```bash
-conda install pytorch torchvision torchaudio cudatoolkit=11.1 -c pytorch -c conda-forge
 ```
 Bước 5:
 Active EG3D cho Conda
 ```bash
 conda activate eg3d
+```
+```
+pip3 uninstall numpy
+pip3 install numpy==1.18.5
 ```
 Active LibstdC++
 ```
